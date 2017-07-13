@@ -51,7 +51,7 @@
 				<div class="panel-body">
 
 
-					<form method="POST" action="" accept-charset="UTF-8" class="form-horizontal">  
+					<form method="POST" action="" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">  
 					<input name="_token" type="hidden" value="8IolQYIl3gN4RRq3svZ97R6xddi5ORXjHS4WZ71T">
 
 						
@@ -62,7 +62,7 @@
   							<label for="file_name" class="col-sm-2 control-label">File Name<span class="star">*</span></label>
 				          	
 				          	<div class="col-sm-10">
-				            	<input class="form-control" name="file_name" type="text" id="file_name">
+				            	<input class="form-control" name="file_name" type="text" id="file_name" required>
 				            </div>
 
 						</div>
@@ -72,7 +72,7 @@
   							<label for="name" class="col-sm-2 control-label">File<span class="star">*</span> </label>
 				          	
 				          	<div class="col-sm-10">
-				            	<input type="file" size="60" />
+				            	<input type="file" name="file" size="60" required>
 				            </div>
 
 						</div>

@@ -99,7 +99,7 @@
               <td><?= $val->id; ?></td>
               <td>Preview</td>
              <td><?= $val->file_name; ?></td>
-              <td><?= $val->file; ?></td>
+              <td><?= $val->file_name; ?></td>
               <td><?= $val->sales_representative; ?></td>
               <td><?= $val->date_added; ?></td>
               <td><?= $val->status; ?></td>

@@ -3,8 +3,9 @@
 namespace App\Controllers;
 
 use App\core\App;
+use App\models\sendImagesRequest;
 
-class ImagesController
+class ImagesController extends sendImagesRequest
 {
 
 	public function indexImage()
@@ -16,17 +17,9 @@ class ImagesController
 	}
 
 	public function store(){
-
-		// $app['database']->insert('users', [
-		App::get('database')->insert('users', [
-		'name' => $_POST['name']
-
-		]);
-
-		return redirect('users');
-
-		
-
+		$store= new sendImagesRequest();
+		$store->sendInsert($_POST['submit'], $_FILES['file']);
+		return true;
 	}
 
 }
