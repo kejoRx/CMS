@@ -51,7 +51,7 @@
 				<div class="panel-body">
 
 
-					<form method="POST" action="AddCompany" accept-charset="UTF-8" class="form-horizontal">  
+					<form method="POST" action="../companies" accept-charset="UTF-8" class="form-horizontal">  
 					<input name="_token" type="hidden" value="8IolQYIl3gN4RRq3svZ97R6xddi5ORXjHS4WZ71T">
 
 						

@@ -1,7 +1,7 @@
 
 
  <!-- head -->
-      <?php require 'app/views/partials/head.php'; ?>
+      <?php require 'app/views/partials/templates/head.php'; ?>
   <!-- / head -->
 
 <body>
@@ -42,7 +42,7 @@
               
               <span class="text-muted text-xs block"><?php //echo $row['group_name']; ?></span></li>
              
-             <?php require 'app/views/partials/logout.php'; ?>
+             <?php require 'app/views/partials/templates/logout.php'; ?>
             </a>                   
           </li>
         </ul>
@@ -54,7 +54,7 @@
   </header>
 
   <!-- nav -->
-    <?php require 'app/views/partials/nav.php'; ?>
+    <?php require 'app/views/partials/templates/nav.php'; ?>
   <!-- / nav -->
     
   <!-- content -->
@@ -140,7 +140,7 @@
   <!-- /content -->
   
   <!-- footer -->
-    <?php require 'app/views/partials/footer.php'; ?>
+    <?php require 'app/views/partials/templates/footer.php'; ?>
   <!-- / footer -->
 </div>
 </body>

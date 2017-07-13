@@ -1,7 +1,7 @@
 
 
  <!-- head -->
-      <?php require 'app/views/partials/head.php'; ?>
+      <?php require 'app/views/partials/templates/head.php'; ?>
   <!-- / head -->
 
 <body>
@@ -9,11 +9,11 @@
   
 
   <!-- header -->
-      <?php require 'app/views/partials/header.php'; ?>
+      <?php require 'app/views/partials/templates/header.php'; ?>
   <!-- / header -->
 
   <!-- nav -->
-    <?php require 'app/views/partials/nav.php'; ?>
+    <?php require 'app/views/partials/templates/nav.php'; ?>
   <!-- / nav -->
     
   <!-- content -->
@@ -21,7 +21,7 @@
   <!-- /content -->
   
   <!-- footer -->
-    <?php require 'app/views/partials/footer.php'; ?>
+    <?php require 'app/views/partials/templates/footer.php'; ?>
   <!-- / footer -->
 </div>
 </body>

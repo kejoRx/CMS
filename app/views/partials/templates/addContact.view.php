@@ -1,7 +1,7 @@
 
 
  <!-- head -->
-      <?php require 'app/views/partials/head.php'; ?>
+      <?php require 'app/views/partials/templates/head.php'; ?>
 <!-- / head -->
 
       <body>
@@ -38,14 +38,14 @@
           <li class="dropdown pos-stc">
             <li><span class="block m-t-sm">
               
-              <li><strong class="font-bold text-lt"><?php  echo $row['name_user'] . ' ' . $row['surname_user']; ?></strong></span>
+              <li><strong class="font-bold text-lt"><?php  //echo $row['name_user'] . ' ' . $row['surname_user']; ?></strong></span>
               
-              <span class="text-muted text-xs block"><?php echo $row['group_name']; ?></span></li>
+              <span class="text-muted text-xs block"><?php// echo $row['group_name']; ?></span></li>
              
-              <li><a href="logout">
-             <span>Log Out</span></li>
+             <?php require 'app/views/partials/templates/logout.php'; ?>
             </a>                   
           </li>
+
         </ul>
         
 
@@ -55,11 +55,11 @@
   </header>
 
   <!-- nav -->
-    <?php require 'app/views/partials/nav.php'; ?>
+    <?php require 'app/views/partials/templates/nav.php'; ?>
   <!-- / nav -->
     
   <!-- content -->
-    <?php require viewPartials('createContact'); ?>
+    <?php require 'app/views/partials/createContact.php'; ?>
   <!-- /content -->
   
   <!-- footer -->
