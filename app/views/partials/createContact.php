@@ -79,10 +79,10 @@
 		      			<div class="form-group field-nameSurname 
 		      				">
 
-  							<label for="nameSurname" class="col-sm-2 control-label">Name and Surname</label>
+  							<label for="nameSurname" class="col-sm-2 control-label">Name and Surname<span class="star">*</span></label>
 				          	
 				          	<div class="col-sm-10">
-				            	<input class="form-control required" nameSurname="nameSurname" type="text" id="nameSurname">
+				            	<input class="form-control required" name="nameSurname" type="text" id="nameSurname" required>
 				            </div>
 
 						</div>
@@ -102,10 +102,10 @@
 						<div class="form-group field-phone app-content
 		      			">
 
-  							<label for="phone" class="col-sm-2 control-label">Phone</label>
+  							<label for="phone" class="col-sm-2 control-label">Phone<span class="star">*</span></label>
 				          	
 				          	<div class="col-sm-10">
-				            	<input class="form-control required" name="phone" type="text" id="phone">
+				            	<input class="form-control required" name="phone" type="text" id="phone" required>
 				            					          	</div>
 
 						</div>
@@ -120,9 +120,9 @@
 
 						
 						<div class="form-group field-email">
-  							<label for="email" class="col-sm-2 control-label label-strong">E-mail</label>
+  							<label for="email" class="col-sm-2 control-label label-strong">E-mail<span class="star">*</span></label>
 				          	<div class="col-sm-10">
-				            	<input class="form-control required" name="email" type="text" id="email">
+				            	<input class="form-control required" name="email" type="text" id="email" required>
 				            					          	</div>
 						</div>
 						<div class="form-group field-sales_representative">

@@ -30,4 +30,4 @@ $router->get('add_question', 'PagesController@add_question');
 //contact page
 $router->get('contacts', 'ContactsController@indexContact');
 $router->get('contacts/create', 'PagesController@addContact');
-$router->post('contacts/create', 'ContactController@store');
+$router->post('contacts/create', 'ContactsController@store');

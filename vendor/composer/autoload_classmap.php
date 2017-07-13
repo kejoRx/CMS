@@ -18,6 +18,7 @@ return array(
     'App\\models\\LogClass' => $baseDir . '/app/models/LogClass.php',
     'App\\models\\input' => $baseDir . '/app/models/input.php',
     'App\\models\\sendCompaniesRequest' => $baseDir . '/app/models/sendCompaniesRequest.php',
+    'App\\models\\sendContactRequest' => $baseDir . '/app/models/sendContactRequest.php',
     'App\\models\\sendUserRequest' => $baseDir . '/app/models/sendUserRequest.php',
     'ComposerAutoloaderInit4a4ac11ee7002189f197866085bb9831' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',

@@ -19,6 +19,7 @@ class ComposerStaticInit4a4ac11ee7002189f197866085bb9831
         'App\\models\\LogClass' => __DIR__ . '/../..' . '/app/models/LogClass.php',
         'App\\models\\input' => __DIR__ . '/../..' . '/app/models/input.php',
         'App\\models\\sendCompaniesRequest' => __DIR__ . '/../..' . '/app/models/sendCompaniesRequest.php',
+        'App\\models\\sendContactRequest' => __DIR__ . '/../..' . '/app/models/sendContactRequest.php',
         'App\\models\\sendUserRequest' => __DIR__ . '/../..' . '/app/models/sendUserRequest.php',
         'ComposerAutoloaderInit4a4ac11ee7002189f197866085bb9831' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
