@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
-use App\models\LogoutClass;
+use App\models\LogClass;
 
-class PagesController extends LogoutClass
+class PagesController extends LogClass
 {
 	public function home(){
 
@@ -16,7 +16,7 @@ class PagesController extends LogoutClass
 	}
 	
 	public function logout(){
-		$log = new LogoutClass();
+		$log = new LogClass();
 		$log->logout();
 		return true;
 	}

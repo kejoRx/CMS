@@ -16,7 +16,7 @@ class UsersController
 	}
 
 	public function store(){
-		return model('userCreate');
+		return model('sendUserRequest');
 	}
 
 }

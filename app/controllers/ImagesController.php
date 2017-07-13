@@ -12,7 +12,7 @@ class ImagesController
 		$imageDate = App::get('database')->selectAll('images');
 		//var_dump($userDate);
 		return view('images', compact('imageDate'));
-		var_dump($imageDate);
+		// var_dump($imageDate);
 	}
 
 	public function store(){
