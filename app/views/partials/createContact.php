@@ -152,7 +152,7 @@
 						<div class="form-group bottom-buttons">
   							<label class="col-sm-2 control-label">&nbsp;</label>
 			            	<div class="col-sm-10">
-					            <a href="dashboard.php" class="btn btn-default">Cancel</a>
+					            <a href="../dashboard" class="btn btn-default">Cancel</a>
 					           		<input name="submit" type="Submit" class="btn btn-success btn-addon">
 					            </button>
 				          	</div>

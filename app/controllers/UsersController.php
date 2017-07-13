@@ -18,9 +18,9 @@ class UsersController extends sendUserRequest
 	}
 
 	public function store(){
-			$store = new sendUserRequest();
-			$store->sendInsert();
-			return true;
+		$store = new sendUserRequest();
+		$store->sendInsert();
+		return true;
 	}
 
 }
