@@ -82,6 +82,7 @@
       <table class="table table-striped b-t b-light">
         <thead>
           <tr>
+            <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
             <th>ID</th>
             <th>Name</th>
             <th>Contacts</th>
@@ -93,7 +94,7 @@
            <?php foreach ($companyDate as $val) : ?>
        
             <tr>
-
+               <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
               <td><?= $val->id; ?></td>
              <td><?= $val->name; ?></td>
               <td><?= $val->contacts; ?></td>

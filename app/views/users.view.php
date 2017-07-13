@@ -82,6 +82,7 @@
       <table ui-jq="dataTable" class="table table-striped b-t b-light">
         <thead>
           <tr>
+           <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
             <th>ID</th>
             <th>Email</th>
             <th>Name</th>
@@ -97,7 +98,7 @@
        <?php foreach ($userDate as $val) : ?>
        
             <tr>
-
+               <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
               <td><?= $val->id; ?></td>
              <td><?= $val->email; ?></td>
               <td><?= $val->name; ?></td>

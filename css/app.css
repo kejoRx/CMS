@@ -2,7 +2,8 @@
 
 */
 .tablePad{
-  padding-left:  125px;
+  margin-left:  25px;
+  padding-top:  5px;
 }
 .star {
    color: red; /* Make it red */

@@ -81,6 +81,7 @@
       <table class="table table-striped b-t b-light ">
         <thead>
           <tr>
+           <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
             <th>ID</th>
             <th>Preview</th>
             <th>File Name</th>
@@ -94,7 +95,7 @@
           <?php foreach ($imageDate as $val) : ?>
        
             <tr  >
-
+               <td><label class="i-checks m-b-none tablePad"><input type="checkbox" name="post[]"><i></i></label></td>
               <td><?= $val->id; ?></td>
               <td>Preview</td>
              <td><?= $val->file_name; ?></td>
