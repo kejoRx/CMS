@@ -63,7 +63,7 @@ class QueryBuilder
 
 
 			$statement -> execute($parameters);
-			die(var_dump($statement));
+			// die(var_dump($statement));
 		} catch (Exception $e) {
 
 			die($e->getMessage());

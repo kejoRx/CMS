@@ -16,11 +16,11 @@ return array(
     'App\\core\\Request' => $baseDir . '/core/Request.php',
     'App\\core\\Router' => $baseDir . '/core/Router.php',
     'App\\models\\LogClass' => $baseDir . '/app/models/LogClass.php',
-    'App\\models\\input' => $baseDir . '/app/models/testInput.php',
+    'App\\models\\input' => $baseDir . '/app/models/input.php',
+    'App\\models\\sendUserRequest' => $baseDir . '/app/models/sendUserRequest.php',
     'ComposerAutoloaderInit4a4ac11ee7002189f197866085bb9831' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit4a4ac11ee7002189f197866085bb9831' => $vendorDir . '/composer/autoload_static.php',
     'QueryBuilder' => $baseDir . '/core/databases/QueryBuilder.php',
     'connection' => $baseDir . '/core/databases/Connection.php',
-    'sendUserRequest' => $baseDir . '/app/models/userCreate.php',
 );

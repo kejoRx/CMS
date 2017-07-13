@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Controllers;
+
 use App\core\App;
+use App\models\sendUserRequest;
 
 
-class UsersController
+class UsersController extends sendUserRequest
 {
 
 	public function indexUser()
@@ -16,7 +18,9 @@ class UsersController
 	}
 
 	public function store(){
-		return model('sendUserRequest');
+			$store = new sendUserRequest();
+			$store->sendInsert();
+			return true;
 	}
 
 }

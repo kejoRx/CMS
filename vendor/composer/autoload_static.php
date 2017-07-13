@@ -17,13 +17,13 @@ class ComposerStaticInit4a4ac11ee7002189f197866085bb9831
         'App\\core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
         'App\\core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
         'App\\models\\LogClass' => __DIR__ . '/../..' . '/app/models/LogClass.php',
-        'App\\models\\input' => __DIR__ . '/../..' . '/app/models/testInput.php',
+        'App\\models\\input' => __DIR__ . '/../..' . '/app/models/input.php',
+        'App\\models\\sendUserRequest' => __DIR__ . '/../..' . '/app/models/sendUserRequest.php',
         'ComposerAutoloaderInit4a4ac11ee7002189f197866085bb9831' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit4a4ac11ee7002189f197866085bb9831' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/core/databases/QueryBuilder.php',
         'connection' => __DIR__ . '/../..' . '/core/databases/Connection.php',
-        'sendUserRequest' => __DIR__ . '/../..' . '/app/models/userCreate.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
