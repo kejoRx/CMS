@@ -57,7 +57,7 @@
   <!-- / nav -->
     
   <!-- content -->
-    <?php require 'app/views/partials/createImage.php'; ?>
+    <?php require viewPartials('createImage'); ?>
   <!-- /content -->
   
   <!-- footer -->

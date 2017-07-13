@@ -1,6 +1,9 @@
 /* 
 
 */
+.tablePad{
+  padding-left:  125px;
+}
 .star {
    color: red; /* Make it red */
    

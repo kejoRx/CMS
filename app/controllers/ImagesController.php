@@ -7,11 +7,12 @@ use App\core\App;
 class ImagesController
 {
 
-	public function index()
+	public function indexImage()
 	{
-		$users= App::get('database')->selectAll('users');
-		return view('users', ['users' => $users]);
-
+		$imageDate = App::get('database')->selectAll('images');
+		//var_dump($userDate);
+		return view('images', compact('imageDate'));
+		var_dump($imageDate);
 	}
 
 	public function store(){

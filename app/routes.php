@@ -20,7 +20,7 @@ $router->get('companies/create', 'PagesController@addCompany');
 $router->post('companies/create', 'CompaniesController@store');
 
 //images page
-$router->get('images', 'PagesController@images');
+$router->get('images', 'ImagesController@indexImage');
 $router->get('images/create', 'PagesController@addImages');
 $router->post('images/create', 'ImagesController@Astore');
 
